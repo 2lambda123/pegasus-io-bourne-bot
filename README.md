@@ -42,3 +42,9 @@ Then you can modify the source code of the bot which already has extras :
   * [x] [`Discord`](#) https://github.com/thetimpanist/hubot-discord
   * [x] [`RocketChat`](https://github.com/RocketChat/Rocket.Chat)
   * [x] [`Zulip`](https://github.com/zulip/zulip) https://github.com/zulip/hubot-zulip
+
+
+
+  ## Git based, hugo
+
+  See https://github.com/pokusio/pokusbot-hugo-theme as a hugo theme that can be used for many purposes
