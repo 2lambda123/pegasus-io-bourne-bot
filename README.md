@@ -34,7 +34,7 @@ Then you can modify the source code of the bot which already has extras :
   * https://github.com/DigitalOnUs/VaultAIDE
 * how many open source project exists on the topic ?
   * (not much, or say none at all) : https://github.com/search?q=hashicorp+vault+bot&type=repositories
-  * only one worth mentioning [a repo](https://github.com/ezafeire/sensitive-data-leak-prevention) whose idea was to :
+  * only one worth mentioning [a repo](https://github.com/ezafeire/sensitive-data-leak-prevention) whose idea was to (also note that this bot was made with probot like one of th [top rated discord bots rated top.gg](https://top.gg) ) :
 
 >
 > A `probot` application that automatically detects and deletes github issues that contain sensitive data such as Hashicorp Vault tokens and role-id's. The bot will asynchronously detect posts, delete them, re-create them with the sensitive data redacted and inform the user of the deletion.
