@@ -2,13 +2,13 @@
 
 Manage (Bourne Identities of) your bots, across Service providers. Based on hashicorp Vault, Secret Hub, and `Kubeseal`.
 
-Bourne bots allows you to manage all your bots, across servic providers.
+Bourne bots allows you to manage all your bots, across service providers.
 
 What do I mean by "Service providers" :
 
 * In CICD's today's world, there are hundreds of CICD as a service offers, like cirlce ci, travis ci, bamboo, codeship (cloudbees), secrethub.io, github.com, gitlab.com, dockerhub, etc, etc...  
 * And acutally, what happens, is that we, people, in he CICD, think of a "robot", a someone, who does all the dirty work for us : it automates tedious, complex operations, to make them reliable, repeatable, and fast.
-* Well those robots, int his many-providers contexts, actually use : a github user, a dockerhub user, a secrethub user, a cricle ci API TOken, etc. etc...
+* Well those robots, int his many-providers contexts, actually use : a github user, a dockerhub user, a secrethub user, a cricle ci API Token, etc. etc...
 * And now you feel the coming up problem, so let's get to the point :
 
 
@@ -29,13 +29,16 @@ Then you can modify the source code of the bot which already has extras :
 
 # References
 
+* Something open source from hashicorp :
+  * https://www.hashicorp.com/blog/vault-aide-a-chatops-bot-for-hashicorp-vault
+  * https://github.com/DigitalOnUs/VaultAIDE
 * how many open source project exists on the topic ?
   * (not much, or say none at all) : https://github.com/search?q=hashicorp+vault+bot&type=repositories
   * only one worth mentioning [a repo](https://github.com/ezafeire/sensitive-data-leak-prevention) whose idea was to :
 
-  >
-  > A `probot` application that automatically detects and deletes github issues that contain sensitive data such as Hashicorp Vault tokens and role-id's. The bot will asynchronously detect posts, delete them, re-create them with the sensitive data redacted and inform the user of the deletion.
-  >
+>
+> A `probot` application that automatically detects and deletes github issues that contain sensitive data such as Hashicorp Vault tokens and role-id's. The bot will asynchronously detect posts, delete them, re-create them with the sensitive data redacted and inform the user of the deletion.
+>
 
 * Can the `hubot` framework work with :
   * [x] [`Slack`](#) https://github.com/slackapi/hubot-slack
@@ -45,6 +48,6 @@ Then you can modify the source code of the bot which already has extras :
 
 
 
-  ## Git based, hugo
+## Git based, hugo
 
-  See https://github.com/pokusio/pokusbot-hugo-theme as a hugo theme that can be used for many purposes
+See https://github.com/pokusio/pokusbot-hugo-theme as a hugo theme that can be used for many purposes
